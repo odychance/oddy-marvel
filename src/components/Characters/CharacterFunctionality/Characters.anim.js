@@ -37,9 +37,9 @@ const animFinded = ({ speedRef, targetRef }) => {
     const target = targetRef?.current
 
     gsap.fromTo(speed, {
-        scale: 3
+        width: "400vw"
     }, {
-        scale: .65,
+        width: "110vw",
         duration: 1,
         ease: "power4.easeIn"
         })
