@@ -9,12 +9,14 @@ const anim = ({mainContainerRef}) => {
     const mainContainer = mainContainerRef.current
 
     gsap.from(mainContainer, {
-        x: "120vw",
+        // x: "120vw",
+        x: 0,
         // opacity: 0,
         pointerEvents: false,
     })
     gsap.to(mainContainer, {
-        x: 0,
+        // x: 0,
+        x: "-100vw",
         y: 0,
         // opacity: 1,
         pointerEvents: true,

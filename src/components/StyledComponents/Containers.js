@@ -11,8 +11,8 @@ export const ContainerView = styled.div`
     overflow: hidden;
     position: ${props => props.sticky ? "fixed" : "relative"};
     top: 0;
-    /* left: ${props => props.slide ? "100vw" : 0}; */
-    left: 0;
+    left: ${props => props.slide ? "100vw" : 0};
+    /* left: 0; */
 `
 
 export const ContainerPanel = styled.div`

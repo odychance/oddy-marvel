@@ -29,7 +29,7 @@ const Characters = ({infoMarvel}) => {
     }, [])
 
   return (
-    <ContainerView fcolumn="true" sticky="true" slide="true" ref={mainContainerRef}>
+    <ContainerView fcolumn="true" sticky="true" slide ref={mainContainerRef}>
             <ContainerPanel>
                 <ContainerVideo>
                     <VideoCharacters src="/Media/Video/BgHomeMarvel.mp4"  autoPlay muted loop/>
