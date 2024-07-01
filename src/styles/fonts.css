@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Panchang;
+    src: url("/public/fonts/Panchang/Fonts/Variable/Panchang-Variable.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Melodrama;
+    src: url("/public/fonts/Melodrama/Melodrama/Variable/Melodrama-Variable.ttf");
+    font-display: swap;
+}
